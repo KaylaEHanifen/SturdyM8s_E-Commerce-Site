@@ -29,7 +29,7 @@ cq
 
 .login-button {
   /*this is my login button */
-  background-color: #82747c;
+  background-color: #ca5b0b;
   color: white;
   font-size: 14px;
   padding: 8px 30px;
@@ -55,7 +55,7 @@ cq
 }
 
 .nav-link {
-  color: #615062; /*this changed the color of my home, products and register*/
+  color: #df7e23; /*this changed the color of my home, products and register*/
   font-weight: 500; /*this make my font thicker*/
   position: relative;
 }
@@ -101,101 +101,23 @@ cq
 }
 
 .shopping:hover {
-  fill: #615062;
+  fill: #d98620;
 }
 
 /*Nav Ends*/
 
 body {
-  /* background-image: url(/images/Background.png);
+  /* background-image: url(images/BackgroundImage.jpeg);
      background-size: cover; */
   font-family: "Poppins", sans-serif;
 }
 
-.px-4 {
-  background-color: #cbb9d9;
-}
 
-footer {
-  background-color: #cbb9d9;
-}
 
-.btn {
-  border-color: #cbb9d9;
-  color: #cbb9d9;
-}
 
-.btn:hover {
-  background-color: #cbb9d9;
-  color: #b34b0e;
-  border-color: #615062;
-}
 
-.ourmission {
-  background-color: pink;
-  padding: 30px;
-  width: 80%;
-  border-radius: 20px;
-  text-align: center;
-}
 
-.container2 {
-  display: flex;
-  justify-content: center;
-}
 
-.card {
-  background-color: #cda8c7;
-}
-
-.card1 {
-  background-image: url(/images/birthday1.jpg);
-  background-size: cover;
-  background-position: right;
-}
-
-.card2 {
-  background-image: url(/images/graduation1.jpg);
-  background-size: cover;
-  background-position: right;
-}
-
-.card3 {
-  background-image: url(/images/muchmore.jpg);
-  background-size: cover;
-  background-position: right;
-}
-
-.birth {
-  text-decoration: none;
-}
-
-.birth:hover {
-  color: #615062;
-}
-
-.wwo {
-  text-align: center;
-  padding-top: 5%;
-  color: black;
-}
-
-.sign {
-  background-image: url(/images/background2.jpg);
-  background-size: cover;
-}
-
-#owl-demo .item img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-#hero {
-  background-color: #cbb9d9;
-  background-position: center;
-  background-size: cover;
-}
 
 ul li {
   text-decoration: none;
@@ -286,7 +208,7 @@ ul li {
 
 .messagebutton {
   background-color: #cbb9d9;
-  color: #39223a;
+  color: #562f05;
 }
 
 .messagebutton:hover {
@@ -331,12 +253,12 @@ ul li {
 
 #checkoutpage1 .form-control:focus {
   box-shadow: none;
-  border-color: #615062;
+  border-color: #da8b2a;
   border-width: 4px;
 }
 
 .checkoutcol {
-  color: #39223a;
+  color: #e09512;
 }
 .checkoutbutt {
   background-color: #b34b0e;
