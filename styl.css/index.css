@@ -1,0 +1,393 @@
+.productback {
+    background-image: url(s/bac/imagekground.jpg);
+    background-size: cover;
+}
+cq 
+
+/*Nav Begins*/
+.navbar {
+    background-color: #CBB9D9;
+    height: 80px;
+    padding: 1.5rem;
+}
+
+
+.navbar-brand { /*this is my ilumi title*/
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s color;
+}
+
+.navbar-brand:hover { /*this is my ilumi title when you hover over it*/
+    font-weight: 500;
+    color: #615062;
+    font-size: 25px;
+    transition: 0.3s color;
+}
+
+
+.login-button { /*this is my login button */
+    background-color: #82747C;
+    color: white;
+    font-size: 14px;
+    padding: 8px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover { /*this is my login button hover */
+    background-color: #39223a;
+    color: White;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #615062; /*this changed the color of my home, products and register*/
+    font-weight: 500; /*this make my font thicker*/
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #39223a;
+}
+
+@media (min-width: 991px) {
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: #39223a;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+}
+
+.nav-item {
+ margin: 2%;   
+}
+
+.theme-shadow {
+    box-shadow: 0px 0px 2.2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.shopping {
+    fill: white;
+    margin: .5%;
+}
+
+.shopping:hover {
+    fill: #615062;
+}
+
+/*Nav Ends*/
+
+body {
+     /* background-image: url(/images/Background.png);
+     background-size: cover; */
+     font-family: "Poppins", sans-serif;
+   
+
+}
+
+
+
+
+.px-4 {
+    background-color: #CBB9D9;
+}
+
+footer {
+    background-color: #CBB9D9;
+}
+
+.btn {
+    border-color: #CBB9D9;
+    color: #CBB9D9;
+}
+
+.btn:hover {
+    background-color: #CBB9D9;
+    color: #39223a;
+    border-color: #615062;
+}
+
+
+
+
+
+
+.ourmission {
+    background-color: pink;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+   }
+
+.card {
+    background-color: #CDA8C7;
+}
+
+
+
+ .card1 {
+    background-image: url(/images/birthday1.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.card2 {
+    background-image: url(/images/graduation1.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.card3 {
+    background-image: url(/images/muchmore.jpg);
+    background-size: cover;
+    background-position: right;
+} 
+
+.birth {
+    text-decoration: none;
+}
+
+.birth:hover {
+    color: #615062;
+}
+
+.wwo {
+    text-align: center;
+    padding-top: 5%;
+    color: black;
+}
+
+.sign {
+    background-image: url(/images/background2.jpg);
+    background-size: cover;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#hero {
+    background-color: #CBB9D9;
+    background-position: center;
+    background-size: cover;
+
+}
+
+ul li {
+    text-decoration: none;
+    padding: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    color: #615062;
+}
+/* Balloon Services Begin */
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background-color: #615062;
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #CDA8C7;
+    color: white;
+    font-size: 34px;
+    flex: none;
+    border-radius: 80px;
+}
+
+.service {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.service::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition:all 0.3s ease ;
+}
+
+.service:hover::after {
+    width: 100%;
+    height: 100%;
+    background-color: #CBB9D9;
+    z-index: -1;
+}
+
+.service:hover h5, .service:hover p {
+color: white;
+}
+
+.service:hover .iconbox {
+    background-color: #615062;
+    color: white;
+}
+
+/* Balloon Service Ends */
+
+#contact {
+    position: relative;
+    z-index: 2;
+}
+
+#contact::after {
+    content: "";
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+}
+
+.messagebutton {
+    background-color: #CBB9D9;
+    color: #39223a;
+}
+
+.messagebutton:hover {
+    background-color: #39223a ;
+    color: #CBB9D9;
+}
+
+#contact .form-control:focus {
+   box-shadow: none;
+   border-color: #db99bf;
+   border-width: 4px;
+}
+
+
+
+.card-body {
+    background-color: #615062;
+}
+
+.card-text {
+    color: lightgrey; 
+    letter-spacing: 1.5px;
+}
+
+#signup .form-control:focus {
+    box-shadow: none;
+    border-color: #615062;
+    border-width: 4px;
+ }
+
+ #signup2 {
+    background-color: #CDA8C7;
+ }
+
+ .registerbut {
+    background-color: #82747C;
+    color: #f6e9ff !important;
+ }
+
+ .registerbut:hover {
+    background-color: #39223a;
+    color: #CBB9D9 !important;
+ }
+
+ #checkoutpage1 .form-control:focus {
+    box-shadow: none;
+    border-color: #615062;
+    border-width: 4px;
+ }
+
+ .checkoutcol {
+    color: #39223a;
+ }
+.checkoutbutt {
+    background-color: #39223a;
+}
+
+#login1 .form-control:focus {
+    box-shadow: none;
+    border-color: #615062;
+    border-width: 4px;
+}
+
+.loginbutton1 {
+    background-color: #82747C;
+    color: #39223a;
+}
+
+.loginbutton1:hover {
+    background-color: #39223a;
+    color: #82747C;
+}
+
+.bday {
+    color: rgb(1, 146, 1);
+}
+
+.bbsh {
+    color: #a74b80;
+}
+
+.gradrad {
+    color: #375581;
+}
+
+.genrev {
+    color: rgb(92, 39, 153);
+}
+
+.wedd {
+    color: #832424;
+}
+
+.mmmor {
+    color: #056e66;
+}
