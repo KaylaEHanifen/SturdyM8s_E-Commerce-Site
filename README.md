@@ -1,5 +1,5 @@
 # This-Shop-Rocks
-Welcome to the Sturdy M8's Emporium—a hub for unconventional companionship! This repository takes a comedic approach that calls attention to public health issue of loneliness and it's prominence in today's society. This project is an HTML, CSS, and Bootstrap e-commerce site retailing pet rocks as humanities fill-in for companionships; requiring no effort but delivering all the benefits of an authentic, lasting relationship for the incapable/unwilling. Explore the future of one-sided friendships—because if you can't beat it, join it right? Venture into the codebase for a journey through the ordinary, with a twist!
+Welcome to the Sturdy M8's Emporium—a hub for unconventional companionship! This repository takes a comedic approach that calls attention to public health issue of loneliness and it's prominence in today's society. This project is an HTML, CSS, and Bootstrap e-commerce site retailing pet rocks as humanities fill-in for companionships; requiring no effort but delivering all the benefits of an authentic, lasting relationship for the incapable/unwilling. Explore the future of one-sided friendships—because if you can't beat it, join it right?
 
 
 Home Page
